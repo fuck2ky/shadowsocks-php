@@ -1,16 +1,20 @@
 {
-    "name": "liubinzh/shadowsocks-php",
+    "name": "losgif/shadowsocks-php",
     "description": "A php port of shadowsocks based on swoole extension.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Iceux",
-            "email": "liubinzh@gmail.com"
+            "name": "Losgif",
+            "email": "losgif@gmail.com"
         }
     ],
     "require": {
+        "php": ">=5.5.9",
 	    "ext-swoole": ">=1.8.5",
         "katzgrau/klogger": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
     },
 	"autoload": {
 	  "psr-4": {
